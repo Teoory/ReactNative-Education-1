@@ -9,10 +9,6 @@ export default function ucuncuScreen({ navigation }) {
     setUsername("");
   };
 
-  useEffect(() => {
-    setModalVisible(false);
-  }, []);
-
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Ayarlar Sayfa</Text>
